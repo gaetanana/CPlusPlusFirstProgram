@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.24)
+project(PremierProgrammeC__)
+
+set(CMAKE_CXX_STANDARD 17)
+
+add_executable(PremierProgrammeC__ main.cpp ExerciceOpenClassRoom/ExerciceOpenClassRoom.cpp ExerciceOpenClassRoom/headerExerciceOpenClassRoom.h TestsPersonnels/TestsPersonnels.h TestsPersonnels/TestsPersonnels.cpp ExerciceOpenClassRoom/ExerciceOpenClassRoom.cpp ExerciceOpenClassRoom/tableaux.cpp ExerciceOpenClassRoom/Fichier.cpp ExerciceOpenClassRoom/pointeurs.cpp orienteObjet/class.h orienteObjet/Personnage.cpp)
